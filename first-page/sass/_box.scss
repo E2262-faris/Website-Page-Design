@@ -1,0 +1,40 @@
+#div-box{
+    display: flex;
+    border-bottom: 5px #a9508b solid;
+    background-color: #f4f4f4;
+    min-height: 100px;
+
+    
+    
+    .box{
+        background-color: #f4f4f4;
+        
+
+    }
+
+    h3{
+        color: black;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        
+
+    }
+
+    p{
+        color: black;
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    img{
+        width: 110px;
+        margin: auto;
+        display: flex;
+        
+    }
+}
