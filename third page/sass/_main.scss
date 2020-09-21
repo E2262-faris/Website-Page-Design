@@ -2,36 +2,66 @@ main{
     width: 80%;
     margin: auto;
     background-color: #f4f4f4;
-    min-height: 690px;
-    // overflow: hidden;
+    min-height: 850px;
+    overflow: hidden;
     
     .first-text{
         color: black;
         width: 65%;
         float: left;
         padding: 15px;
+        background: #e6e6e6;
+        // border: #cccccc solid 1px;
+        list-style: none;
+        
     }
 
-    #second-text{
-        background-color: #35424a;
-        margin-top: 10px;
-        color: white;
-    }
+
 
     h3{
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
-    .last-section{
-        width: 26%;
+// --------------------------------------------------------
+
+
+    form{
+        width: 27%;
         float: right;
-        padding: 20px;
+        padding: 15px;
         background-color: #35424a;
         color: white;
         position: relative;
-        top: -140px;
+        top: -500px;
         margin-left: 5px;
+        padding-top: 10px;
 
+
+        button{
+            height: 43px;
+            width: 100px;
+            background-color: #a9508b;
+            font-size: 20px;
+        }
+
+
+        h3{
+            padding-bottom: 20px;
+        }
+
+
+        input , textarea {
+
+            margin-bottom: 10px;
+        }
     }
+
+    #text, #mail {
+        width: 90%;
+        padding: 10px;
+    }
+
+
+
 
 }
